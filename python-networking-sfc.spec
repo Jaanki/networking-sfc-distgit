@@ -69,7 +69,7 @@ Requires:       python-sqlalchemy
 Requires:       python-stevedore
 Requires:       python-openstackclient
 Requires:       python-paste 
-Requires:       python-pastedeploy
+#Requires:       python-pastedeploy
 Requires:       python-routes
 Requires:       python-debtcollector
 Requires:       python-pecan
@@ -79,8 +79,7 @@ Requires:       python-requests
 Requires:       python-jinja2
 Requires:       python-keystonemiddleware
 Requires:       python-netaddr
-Requires:       python-SQLAlchemy
-Requires:       python-WebOb
+Requires:       python-webob
 Requires:       python-keystoneclient
 Requires:       python-oslo-concurrency
 Requires:       python-oslo-context
