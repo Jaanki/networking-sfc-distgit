@@ -4,7 +4,7 @@
 
 Name:           python-%{pypi_name}
 Version:        3.0.0
-Release:        1
+Release:        1%{?dist}
 Summary:        API and implementations to support Service Function Chaining in Neutron
 
 License:        ASL 2.0
@@ -67,8 +67,31 @@ Requires:       python-oslo-utils
 Requires:       python-six
 Requires:       python-sqlalchemy
 Requires:       python-stevedore
-# To remove when code has moved to python-openstackclient
 Requires:       python-openstackclient
+Requires:       python-paste 
+Requires:       python-pastedeploy
+Requires:       python-routes
+Requires:       python-debtcollector
+Requires:       python-pecan
+Requires:       python-greenlet
+Requires:       python-httplib2
+Requires:       python-requests
+Requires:       python-jinja2
+Requires:       python-keystonemiddleware
+Requires:       python-netaddr
+Requires:       python-SQLAlchemy
+Requires:       python-WebOb
+Requires:       python-keystoneclient
+Requires:       python-oslo-concurrency
+Requires:       python-oslo-context
+Requires:       python-oslo-db
+Requires:       python-oslo-policy
+Requires:       python-oslo-middleware
+Requires:       python-oslo-rootwrap
+Requires:       python-oslo-versionedobjects
+Requires:       python-os-client-config
+Requires:       python-novaclient
+
 
 %description -n python2-%{pypi_name}
 This project provides APIs and implementations to support Service Function
