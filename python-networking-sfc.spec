@@ -28,8 +28,8 @@ BuildRequires:  python-testscenarios
 BuildRequires:  python-neutron-lib-tests
 BuildRequires:  python-neutron-tests
 BuildRequires:  openstack-neutron
-# To remove when code has moved to python-openstackclient
 BuildRequires:  python2-osc-lib-tests
+BuildRequires:  python-cliff
 
 %description
 This project provides APIs and implementations to support Service Function
@@ -90,7 +90,7 @@ Requires:       python-oslo-rootwrap
 Requires:       python-oslo-versionedobjects
 Requires:       python-os-client-config
 Requires:       python-novaclient
-
+Requires:       python-cliff
 
 %description -n python2-%{pypi_name}
 This project provides APIs and implementations to support Service Function
