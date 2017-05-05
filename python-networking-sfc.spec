@@ -29,7 +29,6 @@ BuildRequires:  python-neutron-lib-tests
 BuildRequires:  python-neutron-tests
 BuildRequires:  openstack-neutron
 BuildRequires:  python2-osc-lib-tests
-#BuildRequires:  python-cliff
 
 %description
 This project provides APIs and implementations to support Service Function
@@ -67,9 +66,7 @@ Requires:       python-oslo-utils
 Requires:       python-six
 Requires:       python-sqlalchemy
 Requires:       python-stevedore
-Requires:       python-openstackclient
 Requires:       python-paste 
-#Requires:       python-pastedeploy
 Requires:       python-routes
 Requires:       python-debtcollector
 Requires:       python-pecan
@@ -90,7 +87,6 @@ Requires:       python-oslo-rootwrap
 Requires:       python-oslo-versionedobjects
 Requires:       python-os-client-config
 Requires:       python-novaclient
-#Requires:       python-cliff
 
 %description -n python2-%{pypi_name}
 This project provides APIs and implementations to support Service Function
