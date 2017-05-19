@@ -138,6 +138,7 @@ Networking-sfc set of tests
 rm -rf %{pypi_name}.egg-info
 # FIXME(bcafarel): require neutronclient.tests.unit (python-neutronclient-tests package was dropped)
 rm -rf %{module}/tests/unit/cli
+rm -rf {test-,}requirements.txt
 
 %build
 %py2_build
