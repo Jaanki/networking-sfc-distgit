@@ -87,6 +87,7 @@ Requires:       python-oslo-rootwrap
 Requires:       python-oslo-versionedobjects
 Requires:       python-os-client-config
 Requires:       python-novaclient
+Requires:       python-openstackclient
 
 %description -n python2-%{pypi_name}
 This project provides APIs and implementations to support Service Function
